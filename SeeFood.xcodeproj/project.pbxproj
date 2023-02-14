@@ -13,6 +13,7 @@
 		43B7CC782999211D00716A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B7CC762999211D00716A3F /* Main.storyboard */; };
 		43B7CC7A2999211F00716A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B7CC792999211F00716A3F /* Assets.xcassets */; };
 		43B7CC7D2999211F00716A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B7CC7B2999211F00716A3F /* LaunchScreen.storyboard */; };
+		43B7CC85299923B000716A3F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43B7CC84299923B000716A3F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		43B7CC792999211F00716A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B7CC7C2999211F00716A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B7CC7E2999211F00716A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B7CC84299923B000716A3F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				43B7CC792999211F00716A3F /* Assets.xcassets */,
 				43B7CC7B2999211F00716A3F /* LaunchScreen.storyboard */,
 				43B7CC7E2999211F00716A3F /* Info.plist */,
+				43B7CC84299923B000716A3F /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B7CC752999211D00716A3F /* ViewController.swift in Sources */,
+				43B7CC85299923B000716A3F /* Inceptionv3.mlmodel in Sources */,
 				43B7CC712999211D00716A3F /* AppDelegate.swift in Sources */,
 				43B7CC732999211D00716A3F /* SceneDelegate.swift in Sources */,
 			);
